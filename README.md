@@ -24,7 +24,17 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Create Project: Open Quartus Prime, start a new project, and name it ripple_counter.
+
+2.Write Code: Create a new Verilog HDL File, write the 4-bit ripple counter code, and save it.
+
+3.Compile: Click Start Compilation and ensure there are zero errors.
+
+4.Create Waveform: Open a new Vector Waveform File (VWF) and insert the clk, reset, and q[3:0] pins.
+
+5.Set Inputs: Apply a toggling clock signal to clk and set reset to 0.
+
+6.Simulate: Click Run Functional Simulation to generate the output waveforms.
 
 **PROGRAM**
 
