@@ -24,7 +24,7 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 **Procedure**
 
-1.Create Project: Open Quartus Prime, start a new project, and name it ripple_counter.
+1.start a new project, and name it ripple_counter.
 
 2.Write Code: Create a new Verilog HDL File, write the 4-bit ripple counter code, and save it.
 
@@ -100,3 +100,5 @@ endmodule
 
 
 **RESULTS**
+
+The functional simulation verified that the 4-bit ripple counter works correctly.Counting Sequence: With every clock pulse, the output increments sequentially in binary from 0000 (0) to 1111 (15).Rollover: After reaching 1111, the counter automatically resets and rolls over back to 0000 on the next clock pulse.
